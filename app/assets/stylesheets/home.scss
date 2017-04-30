@@ -1,0 +1,228 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+    box-sizing : border-box;
+   
+}
+
+.main {
+    width : 100%;
+    margin-left : auto;
+    margin-right : auto;
+}
+.header{
+    display : flex;
+    flex-direction : row;
+}
+
+.logo {
+    margin-top : 7px;
+    margin-left : 15%;
+     font-size: 1.7em;
+  font-weight: 600;
+  color: white;
+  float: left;
+  letter-spacing: 0.075em;
+}
+
+.menu {
+    margin-right : 15%;
+    display : flex;
+    flex-direction : row;
+    letter-spacing: 0.075em;
+    float : right;
+    justify-content : space-between;
+}
+
+ul {
+    list-style : none;
+}
+li {
+    margin-top : 7px;
+    font-weight : 400;
+    margin-left : 10px;
+    font-size : 13px;
+    font-style : bold;
+}
+.main {
+    background-image: url(https://travelblog.expedia.co.kr/wp-content/uploads/2016/03/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height : 700px;
+    
+}
+.landing_content {
+    color : #aaaabb;
+}
+
+.landing_title {
+    position : relative;
+    top : 3em;
+    left : 0.5em;
+    font-size : 70px;
+    text-align : center;
+    font-weight : 600;
+}
+.landing_subtitile {
+    position : relative;
+    top : 4.3em;
+    font-size : 50px;
+    text-align: center;
+    font-weight : 600;
+}
+.landing_content {
+    width : 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#introbtn{
+    width : 10em;
+    position : relative;
+    top : 17em;
+    margin-left : 45%;
+}
+
+.self-pic {
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 2em;
+  background: url(http://cfile2.uf.tistory.com/image/236068435298643210206E) center center no-repeat;
+}
+.port {
+  text-align: center;
+  color: #7a7f82;
+  margin-bottom: 0.1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page_header{
+    padding-top : 40px;
+    padding-bottom: 5px;
+    background: #222222;
+
+    width:100%;
+    color:#ffcc66;
+    
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#start_li{
+    margin-left : 40%;
+}
+#header_title{
+    font-size : 40px;
+    font-weight : 600;
+}
+.page_img{
+  
+    margin-top: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+}
+
+.img_content_1 {
+  border-radius: 50%;
+  border : 8px solid #dddddd;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 2em;
+  background-size: cover;
+  background-position : center center;
+  background : url(data:image/jpeg;base64,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);
+}
+.img_content_2 {
+  border-radius: 50%;
+  border : 8px solid #dddddd;
+  background-color: #333;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 4em;
+  background-size: cover;
+  background-position : center center;
+  background : url(http://www.sansuien.co.jp/korea/dish/images/dish_img04-l.jpg);
+}
+.img_content_3 {
+  border-radius: 50%;
+  border : 8px solid #dddddd;
+  background-color: #333;
+  margin: 0 auto;
+  display: block;
+  width: 50%;
+  height: 200px;
+  width: 200px;
+  margin-top: 4em;
+  background-size: cover;
+  background-position : center center;
+  background : url(http://cfile30.uf.tistory.com/image/260BA033577B602203EEAD);
+}
+
+.myinfo{
+    margin-top: 2em;
+    margin-right: 15%;
+    margin-left: 15%;
+    
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content : space-between;
+}
+.inside {
+    margin-left : 40px;
+    margin-top : 13px;
+    margin-right : 20px;
+}
+.info1, .info2, .info3{
+    width :25%;
+    height : 130px;
+    border : 3px solid #bbbbbb;
+    position : absolute;
+    font-size : 15px;
+}
+.info1{
+    border-radius: 10em 0 5em 5em;
+    top : 12em;
+    left: 15%;
+}
+.info2{
+    border-radius: 0em 10em 5em 5em;
+    top : 30em;
+    right : 13%;
+}
+.info3{
+    border-radius: 10em 0 5em 5em;
+    left:15%;
+    top : 45em;
+}
+
+
+#gobackbtn{
+    width : 10em;
+    margin-left : 47%;
+}
